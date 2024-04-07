@@ -1,7 +1,13 @@
 
+import { Main } from '../../components/molecules/Main'
+import * as S from './styles'
+
+
 export const Home = () => {
   return (
-    <div>Home</div>
+    <S.Wrapper>
+      <Main />
+    </S.Wrapper>
   )
 }
 

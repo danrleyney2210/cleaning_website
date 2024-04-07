@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, button , textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1rem;
   }
@@ -32,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h1, h2,h3,h4,h5,p,span {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
   }
 `;
