@@ -10,6 +10,7 @@ export const Header = () => {
 
         <ul>
           <li>Home</li>
+          <li>Service</li>
           <li>About</li>
           <li>Testimonials</li>
           <li>Contact</li>

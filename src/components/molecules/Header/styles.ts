@@ -24,12 +24,11 @@ export const Header = styled.div`
 
     li {
       cursor: pointer;
-      font-weight: 500;
+      font-weight: 300;
 
       &:hover {
         color: #555;
       }
     }
   }
-
 `

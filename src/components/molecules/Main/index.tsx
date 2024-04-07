@@ -10,12 +10,12 @@ export const Main = () => {
       <S.Main>
         <div className='description'>
           <h1>
-            <span>Contratar</span> um
-            profissional em faxina, nunca foi tão <span>fácil</span>.
+            <span>Hiring</span> a
+            cleaning professional has never been <span>easier</span>.
           </h1>
 
-          <h3>Contrate de forma rápida, prática e segura um profissional
-            de faxina para sua casa, escritório ou condomínio
+          <h3>
+            Quickly, conveniently and safely hire a cleaning professional for your home, office or condominium.
           </h3>
 
           <Button style={{ padding: '0.75rem 3rem' }}>
