@@ -1,5 +1,4 @@
-import styled from "styled-components";
-import theme from "../../../styles/theme";
+import styled from "styled-components"
 
 export const Wrapper = styled.div`
   width: 100%;
@@ -47,7 +46,7 @@ export const Wrapper = styled.div`
         font-size: 14px;
       }
 
-      
+
       .content-cards {
         flex-direction: column;
       }
