@@ -11,14 +11,14 @@ export const Main = () => {
         <div className='description'>
           <h1>
             <span>Hiring</span> a
-            cleaning professional has never been <span>easier</span>.
+            cleaning professional has never been <span>easier.</span>
           </h1>
 
           <h3>
             Quickly, conveniently and safely hire a cleaning professional for your home, office or condominium.
           </h3>
 
-          <Button style={{ padding: '0.75rem 3rem' }}>
+          <Button style={{ padding: '0.75rem 3rem' }} >
             Contact Now
           </Button>
 

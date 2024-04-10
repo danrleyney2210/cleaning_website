@@ -21,7 +21,7 @@ export const Service = () => {
             </ul>
           </div>
 
-          <Button>
+          <Button color='primary'>
             I want a home cleaning
           </Button>
         </S.Card>

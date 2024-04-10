@@ -63,7 +63,11 @@ export const Card = styled.div`
     margin: 0 auto;
   }
 
-
+  @media (max-width: 760px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
 `
 

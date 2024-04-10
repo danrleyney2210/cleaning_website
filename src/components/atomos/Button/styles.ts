@@ -2,6 +2,14 @@ import styled from "styled-components";
 
 
 export const Button = styled.button`
+  &[data-color=primary] {
+    background-color: ${({ theme }) => theme.primary['500']};
+
+    &:hover {
+    background-color: ${({ theme }) => theme.primary['400']};
+  }
+  }
+
   background-color: #D5567B;
   color: #fff;
   padding: .75rem 1.5rem;

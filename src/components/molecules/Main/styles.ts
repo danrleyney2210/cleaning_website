@@ -5,6 +5,11 @@ export const Wrapper = styled.div`
   width: 100%;
   background: rgb(213,253,255);
   background: linear-gradient(90deg, rgba(213,253,255,1) 0%, rgba(249,249,249,1) 40%, rgba(19,169,221,1) 100%);
+
+  @media (max-width: 600px) {
+    background: rgb(152,225,226);
+    background: linear-gradient(0deg, rgba(152,225,226,1) 0%, rgba(255,255,255,1) 22%, rgba(236,249,248,1) 78%, rgba(249,249,249,1) 95%);
+  }
 `
 
 
@@ -29,7 +34,7 @@ export const Main = styled.div`
       line-height: 1;
 
       span {
-        color: #68c0cf;
+        color: ${({ theme }) => theme.primary["500"]};
         font-weight: 600;
       }
     }
@@ -63,6 +68,21 @@ export const Main = styled.div`
     .description {
       height: fit-content;
       padding-bottom: 0px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .description {
+      h1 {
+        font-weight: 500;
+        font-size: 2.4rem;
+      }
+
+      h3 {
+        font-size: 1rem;
+        font-weight: 300;
+        color: #333;
+      }
     }
   }
   
