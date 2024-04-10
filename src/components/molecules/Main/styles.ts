@@ -7,8 +7,8 @@ export const Wrapper = styled.div`
   background: linear-gradient(90deg, rgba(213,253,255,1) 0%, rgba(249,249,249,1) 40%, rgba(19,169,221,1) 100%);
 
   @media (max-width: 600px) {
-    background: rgb(152,225,226);
-    background: linear-gradient(0deg, rgba(152,225,226,1) 0%, rgba(255,255,255,1) 22%, rgba(236,249,248,1) 78%, rgba(249,249,249,1) 95%);
+    background: rgb(89,197,201);
+background: linear-gradient(0deg, rgba(89,197,201,1) 0%, rgba(255,255,255,1) 22%, rgba(236,249,248,1) 78%, rgba(249,249,249,1) 95%);
   }
 `
 
