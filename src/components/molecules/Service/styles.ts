@@ -149,6 +149,22 @@ export const ContentProfissional = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 24px 24px 24px 24px;
+    width: 95%;
+
+    .description {
+      button {
+        font-size: 12px;
+      }
+
+      h1 {
+        line-height: 1;
+        text-align: center;
+      }
+
+      p {
+        text-align: start;
+      }
+    }
   }
 
   
