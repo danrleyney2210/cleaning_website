@@ -49,10 +49,12 @@ export const Main = styled.div`
 
   .content-image {
     max-width: 500px;
+    
 
     img {
-      height: fit-content;
       width: 100%;
+      height: 100%;
+      background-size: cover; 
     }
   }
 
