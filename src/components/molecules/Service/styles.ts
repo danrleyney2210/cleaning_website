@@ -149,6 +149,7 @@ export const ContentProfissional = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 24px 24px 24px 24px;
+    border-radius: 0px 50px 50px 0px;
     width: 95%;
 
     .description {
