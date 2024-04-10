@@ -12,7 +12,6 @@ background: linear-gradient(0deg, rgba(89,197,201,1) 0%, rgba(255,255,255,1) 22%
   }
 `
 
-
 export const Main = styled.div`
   width: 100%;
   max-width: 1024px;
