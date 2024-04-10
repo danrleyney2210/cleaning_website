@@ -1,24 +1,26 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  padding: 16px 0;
+  
   width: 100%;
-  background-color: ${({ theme }) => theme.bg};
+  /* background-color: ${({ theme }) => theme.bg}; */
+  margin-top: -60px;
 
-  h1 {
+  /* h1 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
     color: ${({ theme }) => theme.primary['400']};
     font-weight: 600;
-  }
+  } */
 
 `
 
 export const Card = styled.div`
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 16px;
   padding: 34px;
+  max-width: 420px;
   width: 100%;
 
   .w-icon {
@@ -77,5 +79,6 @@ export const Content = styled.div`
   @media (max-width: 760px) {
     padding: 0 1rem;
     flex-direction: column;
+    align-items: center;
   }
 `

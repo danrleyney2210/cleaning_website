@@ -6,7 +6,6 @@ import { Button } from '../../atomos/Button';
 export const Service = () => {
   return (
     <S.Wrapper>
-      <h1>Services</h1>
       <S.Content>
         <S.Card>
           <div className="w-icon s-house">
