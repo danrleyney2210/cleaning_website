@@ -51,5 +51,19 @@ export const Main = styled.div`
       width: 100%;
     }
   }
+
+  @media (max-width: 1050px) {
+    padding: 0 1rem;
+  }
+
+  @media (max-width: 760px) {
+    flex-direction: column;
+    align-items: center;
+
+    .description {
+      height: fit-content;
+      padding-bottom: 0px;
+    }
+  }
   
 `

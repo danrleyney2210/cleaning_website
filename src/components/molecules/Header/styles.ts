@@ -31,4 +31,14 @@ export const Header = styled.div`
       }
     }
   }
+
+  @media (max-width: 1050px) {
+    padding: 0 1rem;
+  }
+
+  @media (max-width: 650px) {
+    ul {
+      display: none;
+    }
+  }
 `

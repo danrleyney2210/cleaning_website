@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   padding: 16px 0;
   width: 100%;
-  background-color: ${({theme})=> theme.bg};
+  background-color: ${({ theme }) => theme.bg};
 
   h1 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
-    color: ${({theme})=> theme.primary['400']};
+    color: ${({ theme }) => theme.primary['400']};
     font-weight: 600;
   }
 
@@ -32,11 +32,11 @@ export const Card = styled.div`
   }
 
   .s-house {
-    background-color: ${({theme})=> theme.primary['100']};
+    background-color: ${({ theme }) => theme.primary['100']};
   }
 
   .s-corporate {
-    background-color: ${({theme})=> theme.secondary['100']};
+    background-color: ${({ theme }) => theme.secondary['100']};
   }
 
   h4 {
@@ -73,4 +73,9 @@ export const Content = styled.div`
   display: flex;
   justify-content: center;
   gap: 16px;
+
+  @media (max-width: 760px) {
+    padding: 0 1rem;
+    flex-direction: column;
+  }
 `
