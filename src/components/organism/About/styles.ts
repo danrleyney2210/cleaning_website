@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const Wrapper = styled.div`
   width: 100%;
+  
 
   .container {
     margin: 50px auto;
@@ -27,8 +28,62 @@ export const Wrapper = styled.div`
       display: flex;
       
       gap: 24px;
+    }
+  }
 
-      
+
+  .services {
+    background-color: #f1f2f3;
+
+    .wrapper-service {
+      display: flex;
+      gap: 24px;
+      max-width: 1024px;
+      margin: 0 auto;
+      padding: 54px 0;
+
+
+      .content-image {
+        border-radius: 24px;
+        height: 400px;
+        max-width: 500px;
+        width: 100%;
+        background-color: #9999;
+      }
+
+      .warraper-card {
+        h1 {
+          font-weight: 600;
+          margin-bottom: 24px;
+
+          span {
+            font-weight: 600;
+            color: ${({theme})=> theme.primary['500']}};
+          }
+        .wrapper-content-card {
+          display: flex;
+          flex-direction: column;
+          gap: 27px;
+
+          .content-card {
+            width: 100%;
+            display: flex;
+            gap: 24px;
+            
+          
+            div {
+              h3 {
+                font-weight: 600;
+                color: ${({theme})=> theme.primary['800']};
+              }
+  
+              p {
+                font-weight: 300;
+              }
+            }
+          }
+        }
+      }
     }
   }
 
@@ -51,6 +106,15 @@ export const Wrapper = styled.div`
         flex-direction: column;
       }
     }
+
+    .services {
+      padding: 0  16px;
+      .wrapper-service {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
   }
 `
 
@@ -88,4 +152,14 @@ export const Card = styled.div`
     background-color :${({ theme }) => theme.primary['100']}
   }
   
+`
+
+export const Icon = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 12px;
 `

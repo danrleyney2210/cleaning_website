@@ -2,6 +2,9 @@ import * as S from './styles'
 import { IoMdPhonePortrait } from "react-icons/io";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { AiOutlineLike } from "react-icons/ai";
+import { FaHandHoldingUsd } from "react-icons/fa";
+import { BsPatchCheck } from "react-icons/bs";
+import { LuScanFace } from "react-icons/lu";
 
 export const About = () => {
   return (
@@ -41,18 +44,48 @@ export const About = () => {
           </S.Card>
         </div>
 
-        {/* <div className='services'>
-          <div>
+      </div>
+      <div className='services'>
+        <div className='wrapper-service'>
+          <div className='content-image'>
             <h1>asdasdasd</h1>
           </div>
 
-          <div>
+          <div className='warraper-card'>
             <h1>With <span>Lu’s Cleaning</span> you have...</h1>
-            <div>
-              
+            <div className='wrapper-content-card'>
+              <div className='content-card'>
+                <S.Icon>
+                  <FaHandHoldingUsd size={25} color='#51B6C7' />
+                </S.Icon>
+                <div>
+                  <h3>Free quote</h3>
+                  <p>Receive a free, hassle-free quote directly on your WhatsApp. No more complications!</p>
+                </div>
+              </div>
+
+              <div className='content-card'>
+                <S.Icon>
+                  <BsPatchCheck size={25} color='#51B6C7' />
+                </S.Icon>
+                <div>
+                  <h3>Humanized support</h3>
+                  <p>Solvee understands that unforeseen events happen. Didn't like the service? Contact us!</p>
+                </div>
+              </div>
+
+              <div className='content-card'>
+                <S.Icon>
+                  <LuScanFace size={25} color='#51B6C7' />
+                </S.Icon>
+                <div>
+                  <h3>Easy hiring</h3>
+                  <p>Set date and time. Receive a proposal. Choose the best. Too easy!</p>
+                </div>
+              </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </S.Wrapper>
   )
