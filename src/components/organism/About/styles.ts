@@ -44,11 +44,14 @@ export const Wrapper = styled.div`
 
 
       .content-image {
-        border-radius: 24px;
-        height: 400px;
         max-width: 500px;
         width: 100%;
-        background-color: #9999;
+
+        img {
+          width: 100%;
+          background-size: cover;
+          border-radius: 24px;
+        }
       }
 
       .warraper-card {

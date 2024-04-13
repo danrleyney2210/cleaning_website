@@ -5,6 +5,7 @@ import { AiOutlineLike } from "react-icons/ai";
 import { FaHandHoldingUsd } from "react-icons/fa";
 import { BsPatchCheck } from "react-icons/bs";
 import { LuScanFace } from "react-icons/lu";
+import CleaningImage from '../../../assets/image/cleaning-app.png'
 
 export const About = () => {
   return (
@@ -45,10 +46,11 @@ export const About = () => {
         </div>
 
       </div>
+
       <div className='services'>
         <div className='wrapper-service'>
           <div className='content-image'>
-            <h1>asdasdasd</h1>
+            <img src={CleaningImage} alt="" />
           </div>
 
           <div className='warraper-card'>
