@@ -2,19 +2,13 @@ import * as S from './styles'
 
 export const Header = () => {
   return (
-    <S.Wrapper>
+    <S.Wrapper id='#'>
       <S.Header>
         <div>
           <h3>Logo</h3>
         </div>
 
-        <ul>
-          <li>Home</li>
-          <li>Service</li>
-          <li>About</li>
-          <li>Testimonials</li>
-          <li>Contact</li>
-        </ul>
+        <span></span>
       </S.Header>
     </S.Wrapper>
   )

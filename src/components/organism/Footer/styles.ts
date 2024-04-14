@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Footer = styled.div`
-  padding: 40px 0;
+  padding: 30px 0 150px 0;
   width: 100%;
  
   background-color: ${props => props.theme.primary['500']};
@@ -32,13 +32,18 @@ export const Footer = styled.div`
 `
 
 export const Icon = styled.div`
-  height: 40px;
-  width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  border-radius: 6px;
-  background-color: #fff;
-  color: #222;
+  
+
+  a {
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #222;
+  }
 `

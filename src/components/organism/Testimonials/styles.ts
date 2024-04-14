@@ -1,14 +1,9 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.section`
-
+  padding-top: 60px;
   width: 100%;
   text-align: center;
-
-  h5 {
-    margin-top: 24px;
-    text-align: center;
-  }
 
   h2 {
     margin-bottom: 24px;
@@ -88,27 +83,5 @@ export const Wrapper = styled.section`
   }
 `
 
-export const WrapperDone = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: center;
 
-  >div {
-    margin-top: 70px;
-    margin-bottom: 70px;
-    max-width: 500px;
-    width: 100%;
-
-    h1 {
-      font-weight: 600;
-    }
-
-    p {
-      font-weight: 300;
-      margin-bottom: 20px;
-    }
-
-  }
-
-`
 

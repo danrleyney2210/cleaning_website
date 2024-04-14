@@ -12,7 +12,7 @@ import AVATAR1 from "../../../assets/mardoque.jpeg";
 import AVATAR2 from "../../../assets/avatar2.jpg";
 import AVATAR3 from "../../../assets/avatar3.jpg";
 import AVATAR4 from "../../../assets/lucas.png";
-import { Button } from "../../atomos/Button";
+
 
 interface IDataProps {
   avatar: string | undefined;
@@ -58,8 +58,8 @@ const data: IDataProps[] = [
 export const Testimonials = () => {
   return (
     <S.Wrapper id="testimonials">
-      <h5>Indications</h5>
-      <h2>Recommendations</h2>
+
+      <h2>Testimonials</h2>
 
       <Swiper className='container testimonials_container'
         modules={[Pagination]}
@@ -79,15 +79,7 @@ export const Testimonials = () => {
         ))}
       </Swiper>
 
-      <S.WrapperDone id="contact">
-        <div>
-          <h1>Ready for a cleaning?</h1>
-          <p>
-            Send a message to our team now and get a free quote in a few minutes.
-          </p>
-          <Button>Request a free quote</Button>
-        </div>
-      </S.WrapperDone>
+
 
     </S.Wrapper>
   );

@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 
 export const Button = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
   &[data-color=primary] {
     background-color: ${({ theme }) => theme.primary['500']};
 

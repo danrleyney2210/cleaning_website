@@ -1,7 +1,7 @@
 
 import * as S from './styles'
-import { FaFacebookSquare, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa6";
+import { FaFacebookSquare, FaLinkedinIn, FaInstagram, FaWhatsapp } from "react-icons/fa";
+
 
 export const Footer = () => {
   return (
@@ -11,19 +11,28 @@ export const Footer = () => {
 
       <div className='content-social-media'>
         <S.Icon>
-          <FaFacebookSquare size={19} />
+          <a href="#">
+            <FaFacebookSquare size={19} />
+          </a>
         </S.Icon>
 
         <S.Icon>
-          <FaTwitter size={19} />
+          <a href="#">
+            <FaWhatsapp size={19} />
+          </a>
         </S.Icon>
 
         <S.Icon>
-          <FaLinkedinIn size={19} />
+          <a href="#">
+            <FaLinkedinIn size={19} />
+          </a>
+
         </S.Icon>
 
         <S.Icon>
-          <FaInstagram size={19} />
+          <a href="https://www.instagram.com/luscleanings?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
+            <FaInstagram size={19} />
+          </a>
         </S.Icon>
       </div>
 
