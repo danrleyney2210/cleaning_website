@@ -19,9 +19,17 @@ export const Wrapper = styled.div`
 export const Card = styled.div`
   background-color: #fff;
   border-radius: 16px;
-  padding: 34px;
-  max-width: 420px;
+  padding: 24px;
+  max-width: 320px;
+  height: 360px;
   width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 
   .w-icon {
     margin: 0 auto;
@@ -33,11 +41,11 @@ export const Card = styled.div`
     padding: 18px;
   }
 
-  .s-house {
+  .s-primrary {
     background-color: ${({ theme }) => theme.primary['100']};
   }
 
-  .s-corporate {
+  .s-secondary {
     background-color: ${({ theme }) => theme.secondary['100']};
   }
 
@@ -49,10 +57,18 @@ export const Card = styled.div`
 
   .description {
     margin: 30px 0;
-    ul {
-      li {
-        font-weight: 400;
-        color: #888;
+    font-size: 14px;
+    
+    p {
+      font-weight: 600;
+      color: #888;
+      line-height: 1;
+
+      span {
+        font-weight: 300;
+        color: #999;
+        font-size: 14px;
+        line-height: 1;
       }
     }
 
@@ -77,6 +93,7 @@ export const Content = styled.div`
   width: 100%;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
 

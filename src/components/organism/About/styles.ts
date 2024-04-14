@@ -167,7 +167,7 @@ export const Icon = styled.div`
 `
 
 export const WrapperProfissional = styled.div`
-  margin-top: 200px;
+  margin-top: 60px;
   width: 100%;
 
   h1 {

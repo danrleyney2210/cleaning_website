@@ -23,11 +23,7 @@ export const Main = () => {
               Contact Now
             </Button>
           </a>
-
-
-
         </div>
-
 
         <div className="content-image">
           <img src={ImageMain} alt="" />
