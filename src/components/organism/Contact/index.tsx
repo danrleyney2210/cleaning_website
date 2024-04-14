@@ -37,21 +37,21 @@ export const Contact = () => {
           <article className="contact_option">
             <MdOutlineEmail className='contact_option_icon' />
             <h4>Email</h4>
-            <h5>danrley.dev@gmail.com</h5>
+            <h5>luscleaningsf@gmail.com</h5>
             <a href="emailto:danrley.dev@gmail.com" target="_blank">Send a menssage</a>
           </article>
 
           <article className="contact_option">
             <RiMessengerLine className='contact_option_icon' />
             <h4>Menssager</h4>
-            <h5>danrley.dev@gmail.com</h5>
+            <h5>luscleaningsf@gmail.com</h5>
             <a href="mailto:danrley.dev@gmail.com" target="_blank">Send a menssage</a>
           </article>
 
           <article className="contact_option">
             <BsWhatsapp className='contact_option_icon' />
             <h4>Whatsapp</h4>
-            <h5>+55 86 998192450</h5>
+            <h5>+1 (415) 846-2075</h5>
             <a href="https://contate.me/danrley-ney" target="_blank">Send a menssage</a>
           </article>
         </div>
