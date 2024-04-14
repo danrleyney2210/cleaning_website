@@ -18,9 +18,13 @@ export const Main = () => {
             Quickly, conveniently and safely hire a cleaning professional for your home, office or condominium.
           </h3>
 
-          <Button style={{ padding: '0.75rem 3rem' }} >
-            Contact Now
-          </Button>
+          <a href="#contact" style={{ textDecoration: 'none' }}>
+            <Button style={{ padding: '0.75rem 3rem' }}>
+              Contact Now
+            </Button>
+          </a>
+
+
 
         </div>
 
