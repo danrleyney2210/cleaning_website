@@ -11,10 +11,13 @@ export const Service = () => {
     <S.Wrapper id='services'>
       <S.Content>
         <S.Card>
-          <div className="w-icon s-primrary">
-            <FaWarehouse size={24} color='#2CAABF' />
+          <div>
+            <div className="w-icon s-primrary">
+              <FaWarehouse size={24} color='#2CAABF' />
+            </div>
+            <h4 style={{ color: '#2CAABF' }}>Residencial cleaning</h4>
           </div>
-          <h4 style={{ color: '#2CAABF' }}>Residencial cleaning</h4>
+
           <div className="description">
             <p>Basic Cleaning:
               <span>
@@ -35,10 +38,12 @@ export const Service = () => {
         </S.Card>
 
         <S.Card>
-          <div className="w-icon s-primrary">
-            <MdCleaningServices size={24} color='#2CAABF' />
+          <div>
+            <div className="w-icon s-primrary">
+              <MdCleaningServices size={24} color='#2CAABF' />
+            </div>
+            <h4 style={{ color: '#2CAABF' }}>Regular cleaning</h4>
           </div>
-          <h4 style={{ color: '#2CAABF' }}>Regular cleaning</h4>
 
           <div className="description">
             <p>Deep Cleaning:
@@ -60,10 +65,12 @@ export const Service = () => {
         </S.Card>
 
         <S.Card>
-          <div className="w-icon s-primrary">
-            <TbMenuDeep size={24} color='#2CAABF' />
+          <div>
+            <div className="w-icon s-primrary">
+              <TbMenuDeep size={24} color='#2CAABF' />
+            </div>
+            <h4 style={{ color: '#2CAABF' }}>Deep Cleaning</h4>
           </div>
-          <h4 style={{ color: '#2CAABF' }}>Deep Cleaning</h4>
 
           <div className="description">
             <p>Deep Cleaning:
@@ -79,10 +86,12 @@ export const Service = () => {
         </S.Card>
 
         <S.Card>
-          <div className="w-icon s-secondary">
-            <MdOutlineMoveUp size={24} color='#D5567B' />
+          <div>
+            <div className="w-icon s-secondary">
+              <MdOutlineMoveUp size={24} color='#D5567B' />
+            </div>
+            <h4 style={{ color: '#D5567B' }}>Move-out Cleaning</h4>
           </div>
-          <h4 style={{ color: '#D5567B' }}>Move-out Cleaning</h4>
 
           <div className="description">
             <p>
@@ -97,10 +106,12 @@ export const Service = () => {
         </S.Card>
 
         <S.Card>
-          <div className="w-icon s-secondary">
-            <MdOutlineMoveDown size={24} color='#D5567B' />
+          <div>
+            <div className="w-icon s-secondary">
+              <MdOutlineMoveDown size={24} color='#D5567B' />
+            </div>
+            <h4 style={{ color: '#D5567B' }}>Move-in Cleaning</h4>
           </div>
-          <h4 style={{ color: '#D5567B' }}>Move-in Cleaning</h4>
 
           <div className="description">
             <p>
@@ -118,10 +129,12 @@ export const Service = () => {
         </S.Card>
 
         <S.Card>
-          <div className="w-icon s-secondary">
-            <MdOutlineConstruction size={24} color='#D5567B' />
+          <div>
+            <div className="w-icon s-secondary">
+              <MdOutlineConstruction size={24} color='#D5567B' />
+            </div>
+            <h4 style={{ color: '#D5567B' }}>Post Construction</h4>
           </div>
-          <h4 style={{ color: '#D5567B' }}>Post Construction</h4>
 
           <div className="description">
             <p>
