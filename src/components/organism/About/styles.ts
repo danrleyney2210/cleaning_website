@@ -166,3 +166,99 @@ export const Icon = styled.div`
   background-color: #fff;
   border-radius: 12px;
 `
+
+export const WrapperProfissional = styled.div`
+  margin-top: 200px;
+  width: 100%;
+
+  h1 {
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  @media (max-width: 1250px) {
+  margin-top: 100px;
+    
+  }
+`
+
+export const ContentProfissional = styled.div`
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  background-color: ${({ theme }) => theme.primary["400"]};
+  border-radius: 0px 70px 70px 0px;
+  padding: 34px 64px 0px 104px;
+
+  img {
+    /* height: fit-content; */
+    max-width: 600px;
+    width: 100%;
+    overflow: visible;
+  }
+  
+
+  .description {
+    height: fit-content;
+    margin: auto 0;
+
+
+    button {
+      background-color: ${({ theme }) => theme.primary['100']};
+      color: ${({ theme }) => theme.primary['800']};
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+      border-radius: 26px;
+      margin-bottom: 16px;
+      font-weight: 500;
+      font-size: 14px;
+      border: none;
+      /* cursor: pointer; */
+    }
+
+    h1 {
+      font-weight: 600;
+      color: #fff;
+    }
+
+    p {
+      margin-top: 16px;
+      color: #fff;
+      font-size: 14px;
+      line-height: 1.4;
+      font-weight: 200;
+      max-width: 400px;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 24px 24px 24px;
+    border-radius: 0px 50px 50px 0px;
+    width: 95%;
+
+    .description {
+      button {
+        font-size: 12px;
+      }
+
+      h1 {
+        line-height: 1;
+        text-align: center;
+      }
+
+      p {
+        text-align: start;
+      }
+    }
+  }
+
+  
+`

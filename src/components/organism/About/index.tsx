@@ -6,10 +6,27 @@ import { FaHandHoldingUsd } from "react-icons/fa";
 import { BsPatchCheck } from "react-icons/bs";
 import { LuScanFace } from "react-icons/lu";
 import CleaningImage from '../../../assets/image/cleaning-app.png'
+import Profissional from '../../../assets/image/main-image.png'
 
 export const About = () => {
   return (
-    <S.Wrapper>
+    <S.Wrapper id='about'>
+      <S.WrapperProfissional>
+        <h1>About Us</h1>
+        <S.ContentProfissional>
+          <img src={Profissional} alt="" />
+          <div className='description'>
+            <button>
+              The best professionals in the palm of your hand
+            </button>
+            <h1>Partner professionals</h1>
+            <p>
+              Todos especialistas são verificados pela Solvee.
+              Tudo para garantir qualidade e segurança na hora de executar um serviço.
+            </p>
+          </div>
+        </S.ContentProfissional>
+      </S.WrapperProfissional>
       <div className='container'>
         <h1>What does <span>Lu’s Cleaning</span> do?</h1>
         <p>We make it simple for you to hire cleaning specialists.</p>

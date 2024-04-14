@@ -88,3 +88,27 @@ export const Wrapper = styled.section`
   }
 `
 
+export const WrapperDone = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  >div {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    max-width: 500px;
+    width: 100%;
+
+    h1 {
+      font-weight: 600;
+    }
+
+    p {
+      font-weight: 300;
+      margin-bottom: 20px;
+    }
+
+  }
+
+`
+

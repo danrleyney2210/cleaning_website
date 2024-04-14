@@ -2,11 +2,10 @@ import * as S from './styles'
 import { FaWarehouse } from "react-icons/fa";
 import { MdCorporateFare } from "react-icons/md";
 import { Button } from '../../atomos/Button';
-import Profissional from '../../../assets/image/main-image.png'
 
 export const Service = () => {
   return (
-    <S.Wrapper>
+    <S.Wrapper id='services'>
       <S.Content>
         <S.Card>
           <div className="w-icon s-house">
@@ -45,25 +44,6 @@ export const Service = () => {
           </Button>
         </S.Card>
       </S.Content>
-
-      <S.WrapperProfissional>
-        <S.ContentProfissional>
-
-          <img src={Profissional} alt="" />
-
-
-          <div className='description'>
-            <button>
-              The best professionals in the palm of your hand
-            </button>
-            <h1>Partner professionals</h1>
-            <p>
-              Todos especialistas são verificados pela Solvee.
-              Tudo para garantir qualidade e segurança na hora de executar um serviço.
-            </p>
-          </div>
-        </S.ContentProfissional>
-      </S.WrapperProfissional>
     </S.Wrapper>
   )
 }
