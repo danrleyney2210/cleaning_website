@@ -178,8 +178,23 @@ export const WrapperProfissional = styled.div`
     font-size: 24px;
   }
 
+  .about-description {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    p {
+      color: #999;
+      font-weight: 300;
+    }
+  }
+
   @media (max-width: 1250px) {
   margin-top: 100px;
+
+  .about-description {
+    padding: 20px 16px;
+  }
     
   }
 `

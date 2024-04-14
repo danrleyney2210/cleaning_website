@@ -13,6 +13,15 @@ export const About = () => {
     <S.Wrapper id='about'>
       <S.WrapperProfissional>
         <h1>About Us</h1>
+
+        <div className='about-description'>
+          <p>
+            With five years of dedicated expertise in the cleaning industry, Lu's Cleaning stands as a testament to our unwavering commitment to excellence. Since our inception, we have honed our skills, earning a reputation for delivering impeccable services tailored to our clients' unique needs. Over these five years, we've evolved, embracing the latest techniques to ensure efficiency and superior results.
+          </p>
+          <p>
+            Our seasoned team guarantees a thorough and meticulous cleaning experience for every home or office we serve. Customer satisfaction remains at the core of our mission, and our longevity speaks volumes about the trust our clients place in us. As we celebrate our five-year milestone, we look forward to exceeding expectations and setting new standards of excellence. Choose Lu's Cleaning for five years of proven expertise and a spotless legacy.
+          </p>
+        </div>
         <S.ContentProfissional>
           <img src={Profissional} alt="" />
           <div className='description'>
