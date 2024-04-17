@@ -1,13 +1,14 @@
 import * as S from './styles'
+import Logo from '../../../assets/image/logo-cleaning.png'
 
 export const Header = () => {
   return (
     <S.Wrapper id='#'>
       <S.Header>
         <div>
-          <h3>Logo</h3>
+          <img src={Logo} alt="" width={30} />
+          <h3>Lu's <span>Cleaning</span></h3>
         </div>
-
         <span></span>
       </S.Header>
     </S.Wrapper>

@@ -16,6 +16,23 @@ export const Header = styled.div`
   justify-content: space-between;
   align-items: center;
 
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+    h3 {
+      font-weight: 600;
+        color: ${props => props => props.theme.primary['500']};
+
+      span {
+        font-weight: 600;
+        color: ${props => props => props.theme.secondary['500']};
+      }
+    }
+  }
+
   
 
   @media (max-width: 1050px) {
