@@ -24,11 +24,12 @@ export const Header = styled.div`
 
     h3 {
       font-weight: 600;
-        color: ${props => props => props.theme.primary['500']};
+        
+        color: ${({ theme }) => theme.primary["500"]};
 
       span {
         font-weight: 600;
-        color: ${props => props => props.theme.secondary['500']};
+        color: ${({ theme }) => theme.secondary["500"]};
       }
     }
   }
