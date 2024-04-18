@@ -5,8 +5,13 @@ import { MdCleaningServices } from "react-icons/md";
 import { TbMenuDeep } from "react-icons/tb";
 import { MdOutlineMoveUp, MdOutlineMoveDown } from "react-icons/md";
 import { MdOutlineConstruction } from "react-icons/md";
+import { useNavigate } from 'react-router-dom';
 
 export const Service = () => {
+  const navigate = useNavigate()
+
+
+
   return (
     <S.Wrapper id='services'>
       <S.Content>
@@ -32,7 +37,7 @@ export const Service = () => {
             </p> */}
           </div>
 
-          <Button color='primary'>
+          <Button color='primary' onClick={() => navigate('/residencial-cleaning')}>
             View More
           </Button>
         </S.Card>
